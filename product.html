@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product - JEDIS FASHION SENSE</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo.svg" alt="JFS World" />
+        </a>
+
+        <div class="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="shop.html" class="nav-link">Shop</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="lookbook.html" class="nav-link">Lookbook</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-search">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search JFS World"
+            id="searchInput"
+          />
+          <div class="search-results" id="searchResults"></div>
+        </div>
+
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Product Detail -->
+    <section class="product-detail">
+      <div class="container">
+        <div class="product-layout">
+          <div class="product-image">
+            <img
+              src="assets/product-hoodie-1.svg"
+              alt="Product Image"
+              id="productImage"
+            />
+          </div>
+          <div class="product-info">
+            <h1 class="product-title" id="productTitle">Faith Hoodie</h1>
+            <p class="product-price" id="productPrice">$89.99</p>
+            <div class="product-description">
+              <p>
+                A premium hoodie that combines comfort with spiritual
+                expression. Made from high-quality cotton blend with embroidered
+                details that speak to the soul.
+              </p>
+            </div>
+            <div class="product-sizes">
+              <h3>Size</h3>
+              <div class="size-options">
+                <button class="size-btn">XS</button>
+                <button class="size-btn">S</button>
+                <button class="size-btn active">M</button>
+                <button class="size-btn">L</button>
+                <button class="size-btn">XL</button>
+                <button class="size-btn">XXL</button>
+              </div>
+            </div>
+            <div class="product-actions">
+              <button class="add-to-cart-btn">Add to Cart</button>
+              <button class="like-btn" id="likeBtn">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="product-details-section">
+      <div class="container">
+        <div class="details-content">
+          <div class="detail-item">
+            <h3>Material</h3>
+            <p>Premium cotton blend (80% cotton, 20% polyester)</p>
+          </div>
+          <div class="detail-item">
+            <h3>Care Instructions</h3>
+            <p>Machine wash cold, tumble dry low</p>
+          </div>
+          <div class="detail-item">
+            <h3>Fit</h3>
+            <p>Relaxed fit with dropped shoulders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suggested Products -->
+    <section class="suggested-products">
+      <div class="container">
+        <h2 class="section-title">You Might Also Like</h2>
+        <div class="suggested-grid">
+          <div class="product-card">
+            <img src="assets/product-hoodie-2.svg" alt="Spirit Hoodie" />
+            <div class="product-card-info">
+              <h3>Spirit Hoodie</h3>
+              <p>$89.99</p>
+              <div class="product-actions-small">
+                <button class="like-btn-small">♡</button>
+                <button class="add-cart-small">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="assets/product-jersey-1.svg" alt="Purpose Jersey" />
+            <div class="product-card-info">
+              <h3>Purpose Jersey</h3>
+              <p>$79.99</p>
+              <div class="product-actions-small">
+                <button class="like-btn-small">♡</button>
+                <button class="add-cart-small">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="assets/product-top-1.svg" alt="Identity Top" />
+            <div class="product-card-info">
+              <h3>Identity Top</h3>
+              <p>$59.99</p>
+              <div class="product-actions-small">
+                <button class="like-btn-small">♡</button>
+                <button class="add-cart-small">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>JEDIS FASHION SENSE</h3>
+            <p>Born to Wear Purpose</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="lookbook.html">Lookbook</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Phone: 07019543736</p>
+            <p>Email: jedisfashionsense@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 JEDIS FASHION SENSE. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+  </body>
+</html>
