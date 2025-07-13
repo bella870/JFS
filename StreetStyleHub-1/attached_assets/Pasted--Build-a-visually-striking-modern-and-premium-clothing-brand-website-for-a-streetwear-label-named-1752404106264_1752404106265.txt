@@ -1,0 +1,73 @@
+
+Build a visually striking, modern, and premium clothing brand website for a streetwear label named JEDIS FASHION SENSE (JFS WORLD). The brand blends high fashion with spirituality, identity, and cultural purpose.
+The site should be developed using HTML, CSS, and JavaScript with scroll-based and hover animations using GSAP, ScrollTrigger, or similar tools to enhance engagement. Make sure it's fully responsive, fast, and optimized for mobile and desktop.
+generate mockup SVGs when needed. Use only static HTML, CSS and JS. Do not install any packages, do NOT use Typescript, keep it as simple as possible.
+🧠 Brand Details
+•	Brand Name: JEDIS FASHION SENSE (JFS WORLD)
+•	Contact:
+o	Phone: 07019543736
+o	Email: jedisfashionsense@gmail.com
+•	Mission Statement:
+“JEDIS exists to inspire through style — merging faith, identity, and streetwear into bold, wearable expressions of truth.”
+•	Slogan Ideas
+o	“Born to Wear Purpose.”
+📄 Pages to Include
+•	Home
+•	Shop (filterable by HOODIES/ JERSEY/ TOP/ ALL/ )
+•	Product Detail Page
+•	About the Brand
+•	Lookbook / Campaigns
+•	Contact Page (with email form and newsletter sign-up)
+•	Functional Search bar across all pages
+✨ Homepage Features
+•	Fullscreen hero image background with slogan overlay text
+•	Animated entrance for headline (e.g., “Born to Wear Purpose”)
+•	Smooth scroll animations using GSAP or ScrollTrigger
+•	Horizontal scroll section to show featured drops or campaigns
+•	Scroll-to-reveal text, images, and backgrounds
+•	Mouse cursor interaction for luxury feel
+•	Integrated functional search bar with placeholder text: “Search JFS World”
+🛍️ Shop Page
+•	Filterable product grid (with tags like HOODIES/ JERSEY/ TOP/ ALL)
+•	Clean card layout with hover zoom or fade animation
+•	Responsive columns for mobile and desktop
+•	Functional search bar at the top
+📦 Product Detail Page
+•	Large product image with optional zoom
+•	Scroll-triggered text reveals for details and size info
+•	Suggested products section at bottom
+🧾 About Page
+•	Brand mission statement in bold editorial layout
+•	Optional photo or signature of founder
+•	Animated text carousel of the slogans
+🎥 Lookbook / Campaigns Page
+•	Horizontally scrolling image or video gallery
+•	Scroll-triggered transitions between sections
+📬 Contact Page
+•	Email & Phone form
+•	Newsletter sign-up input
+•	Social media links or icons in footer
+🔎 Search Bar Functionality
+•	Always visible in top nav
+•	Placeholder: “Search JFS World”
+•	Should filter products and collections by keyword
+🎨 Design Style
+•	Modern, bold, editorial fashion layout
+•	Neutral tones: black, white, beige, dark gray
+•	Large typography: Inter, Neue Montreal, or Space Grotesk
+•	Hover interactions on buttons, images, and cards
+•	Use whitespace generously like a fashion magazine layout
+•	Smooth page transitions (fade or slide)
+⚙️ Tech & Effects
+•	HTML, CSS, JavaScript
+•	GSAP / ScrollTrigger for scroll animations
+•	Hover effects and image transitions
+•	Responsive grid layout
+•	Lazy loading of large images for performance
+•	Sticky nav bar with shrinking effect
+•	Page loading animation (optional but elegant)
+THERE WILL BE A NEWSLETTER POPUP ANYTIME A USER ENTERS THE WEBSITE
+THE SEARCHBAR SHOULD BE ABLE TO SEARCH FOR PRODUCTS ON THE WEBSITE AND SORT 
+A POPUP tHAT SHOWS A NEWS LETTER POPUP Each time a user enters the website(saying subscribe to our newsletter)
+also for the whole site use nice fonts 
+a like on eack products add to cart and price 

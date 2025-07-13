@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - JEDIS FASHION SENSE</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+          <img src="assets/logo.svg" alt="JFS World" />
+        </a>
+
+        <div class="nav-menu">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="shop.html" class="nav-link">Shop</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="lookbook.html" class="nav-link">Lookbook</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+        </div>
+
+        <div class="nav-search">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search JFS World"
+            id="searchInput"
+          />
+          <div class="search-results" id="searchResults"></div>
+        </div>
+
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+      <div class="container">
+        <h1 class="page-title">Get in Touch</h1>
+        <p class="page-subtitle">We'd love to hear from you</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <p>07019543736</p>
+            </div>
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>jedisfashionsense@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <h3>Follow Us</h3>
+              <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Facebook</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone (Optional)</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="order">Order Support</option>
+                  <option value="wholesale">Wholesale</option>
+                  <option value="collaboration">Collaboration</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Stay Updated</h2>
+          <p>
+            Subscribe to our newsletter for the latest drops, exclusive content,
+            and special offers
+          </p>
+          <form class="newsletter-form-contact">
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">How long does shipping take?</button>
+            <div class="faq-answer">
+              <p>
+                We typically process orders within 2-3 business days. Shipping
+                times vary based on location, but most orders arrive within 5-7
+                business days.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">What is your return policy?</button>
+            <div class="faq-answer">
+              <p>
+                We offer a 30-day return policy for unworn items in original
+                condition. Please contact us to initiate a return.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Do you offer international shipping?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes, we ship internationally. Shipping costs and delivery times
+                vary by destination. Contact us for specific information about
+                your location.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              How do I care for my JFS garments?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Care instructions are included with each garment. Generally, we
+                recommend machine washing cold and tumble drying on low to
+                maintain quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>JEDIS FASHION SENSE</h3>
+            <p>Born to Wear Purpose</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="lookbook.html">Lookbook</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p>Phone: 07019543736</p>
+            <p>Email: jedisfashionsense@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 JEDIS FASHION SENSE. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

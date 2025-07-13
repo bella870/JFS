@@ -1,0 +1,67 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jerseyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="#fafafa"/>
+  
+  <!-- Jersey silhouette -->
+  <!-- Main body -->
+  <path d="M90 160 L90 400 Q90 420 110 420 L290 420 Q310 420 310 400 L310 160 Q310 140 290 140 L110 140 Q90 140 90 160 Z" fill="url(#jerseyGradient)" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Sleeves -->
+  <ellipse cx="70" cy="200" rx="20" ry="40" fill="url(#jerseyGradient)" stroke="#ddd" stroke-width="1"/>
+  <ellipse cx="330" cy="200" rx="20" ry="40" fill="url(#jerseyGradient)" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Neckline -->
+  <path d="M170 140 Q200 120 230 140" stroke="#ddd" stroke-width="1.5" fill="none"/>
+  
+  <!-- Jersey details -->
+  <!-- Chest stripe -->
+  <rect x="95" y="180" width="210" height="4" fill="url(#accentGradient)"/>
+  <rect x="95" y="190" width="210" height="2" fill="url(#accentGradient)" opacity="0.5"/>
+  
+  <!-- Number area -->
+  <circle cx="200" cy="240" r="35" fill="none" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="900" fill="#333">7</text>
+  
+  <!-- Brand text -->
+  <text x="200" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#666">PURPOSE</text>
+  <text x="200" y="315" text-anchor="middle" font-family="Inter, sans-serif" font-size="6" font-weight="400" fill="#999">JERSEY</text>
+  
+  <!-- Side panels -->
+  <rect x="95" y="160" width="8" height="240" fill="#e0e0e0"/>
+  <rect x="297" y="160" width="8" height="240" fill="#e0e0e0"/>
+  
+  <!-- Athletic stripes on sleeves -->
+  <rect x="65" y="185" width="10" height="2" fill="url(#accentGradient)"/>
+  <rect x="65" y="195" width="10" height="2" fill="url(#accentGradient)"/>
+  <rect x="325" y="185" width="10" height="2" fill="url(#accentGradient)"/>
+  <rect x="325" y="195" width="10" height="2" fill="url(#accentGradient)"/>
+  
+  <!-- Hem details -->
+  <rect x="95" y="410" width="210" height="6" fill="#e0e0e0"/>
+  <line x1="100" y1="413" x2="300" y2="413" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Shoulder seams -->
+  <line x1="90" y1="160" x2="70" y2="180" stroke="#ddd" stroke-width="1"/>
+  <line x1="310" y1="160" x2="330" y2="180" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Ventilation mesh pattern -->
+  <g opacity="0.3">
+    <circle cx="120" cy="350" r="1" fill="#ccc"/>
+    <circle cx="130" cy="350" r="1" fill="#ccc"/>
+    <circle cx="140" cy="350" r="1" fill="#ccc"/>
+    <circle cx="120" cy="360" r="1" fill="#ccc"/>
+    <circle cx="130" cy="360" r="1" fill="#ccc"/>
+    <circle cx="140" cy="360" r="1" fill="#ccc"/>
+  </g>
+</svg>

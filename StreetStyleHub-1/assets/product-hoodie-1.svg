@@ -1,0 +1,55 @@
+<svg width="400" height="500" viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hoodieGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0e0e0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shadowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ddd;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#bbb;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="#fafafa"/>
+  
+  <!-- Hoodie silhouette -->
+  <!-- Main body -->
+  <path d="M80 200 Q80 180 100 180 L300 180 Q320 180 320 200 L320 420 Q320 440 300 440 L100 440 Q80 440 80 420 Z" fill="url(#hoodieGradient)" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Hood -->
+  <path d="M120 180 Q120 120 200 120 Q280 180 280 180 L260 160 Q200 100 140 160 Z" fill="url(#hoodieGradient)" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Sleeves -->
+  <ellipse cx="60" cy="250" rx="25" ry="60" fill="url(#hoodieGradient)" stroke="#ccc" stroke-width="1"/>
+  <ellipse cx="340" cy="250" rx="25" ry="60" fill="url(#hoodieGradient)" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Hoodie details -->
+  <!-- Kangaroo pocket -->
+  <rect x="140" y="280" width="120" height="60" rx="10" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  
+  <!-- Drawstrings -->
+  <circle cx="180" cy="200" r="3" fill="#666"/>
+  <circle cx="220" cy="200" r="3" fill="#666"/>
+  <line x1="180" y1="203" x2="175" y2="220" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+  <line x1="220" y1="203" x2="225" y2="220" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Hood seam -->
+  <path d="M140 160 Q200 140 260 160" stroke="#ccc" stroke-width="1" fill="none"/>
+  
+  <!-- Brand text/logo area -->
+  <rect x="160" y="240" width="80" height="20" fill="none" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+  <text x="200" y="252" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="#999">FAITH</text>
+  
+  <!-- Shadow and depth -->
+  <path d="M80 430 Q200 450 320 430 L320 440 Q320 440 300 440 L100 440 Q80 440 80 430 Z" fill="url(#shadowGradient)"/>
+  
+  <!-- Ribbing at bottom -->
+  <rect x="85" y="430" width="230" height="8" fill="#ddd" opacity="0.6"/>
+  <line x1="90" y1="432" x2="310" y2="432" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="90" y1="436" x2="310" y2="436" stroke="#ccc" stroke-width="0.5"/>
+  
+  <!-- Sleeve cuffs -->
+  <ellipse cx="60" cy="300" rx="20" ry="8" fill="#ddd" opacity="0.6"/>
+  <ellipse cx="340" cy="300" rx="20" ry="8" fill="#ddd" opacity="0.6"/>
+</svg>
