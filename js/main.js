@@ -9,8 +9,8 @@ let products = [];
 const productsData = [
   {
     id: 1,
-    name: "Faith Hoodie",
-    price: 89.99,
+    name: "Trinity",
+    price: 50000,
     category: "hoodies",
     image: "assets/product-hoodie-1.jpg",
     description:
@@ -18,43 +18,99 @@ const productsData = [
   },
   {
     id: 2,
-    name: "Spirit Hoodie",
-    price: 89.99,
+    name: "Shin Jacket",
+    price: 45000,
     category: "hoodies",
     image: "assets/product-hoodie-2.jpg",
     description: "Comfortable hoodie with meaningful design elements.",
   },
   {
     id: 3,
-    name: "Purpose Jersey",
-    price: 79.99,
+    name: "He Paid It All Jersey",
+    price: 25000,
     category: "jersey",
     image: "assets/product-jersey-1.jpg",
     description: "Athletic jersey with inspirational messaging.",
   },
   {
     id: 4,
-    name: "Identity Jersey",
-    price: 79.99,
+    name: "He Paid It All Jersey",
+    price: 25000,
     category: "jersey",
     image: "assets/product-jersey-2.jpg",
     description: "Express your true self with this premium jersey.",
   },
   {
     id: 5,
-    name: "Identity Top",
-    price: 59.99,
+    name: "Life Fact Round Neck",
+    price: 25000,
     category: "top",
     image: "assets/product-top-1.jpg",
     description: "Minimalist top with powerful messaging.",
   },
   {
     id: 6,
-    name: "Truth Top",
-    price: 59.99,
+    name: "Rise up Round neck",
+    price: 25000,
     category: "top",
     image: "assets/product-top-2.jpg",
     description: "Lightweight top perfect for everyday wear.",
+  },
+  {
+    id: 7,
+    name: "Always Hustling",
+    price: 30000,
+    category: "hoodies",
+    image: "assets/product-hoodie-3.jpg",
+    description: "A stylish hoodie that keeps you motivated.",
+  },
+  {
+    id: 8,
+    name: "Amor",
+    price: 48000,
+    category: "hoodies",
+    image: "assets/product-hoodie-4.jpg",
+    description: "A stylish hoodie that keeps you motivated.",
+  },
+  {
+    id: 9,
+    name: "Rose Again Hoodie",
+    price: 30000,
+    category: "hoodies",
+    image: "assets/product-hoodie-5.jpg",
+    description: "A stylish hoodie that keeps you motivated.",
+  },
+  {
+    id: 10,
+    name: "Won. Up and Down",
+    price: 60000,
+    category: "hoodies",
+    image: "assets/product-hoodie-6.jpg",
+    description: "A stylish hoodie that keeps you motivated.",
+  },
+  {
+    id: 11,
+    name: "He Paid It All Jersey",
+    price: 25000,
+    category: "jersey",
+    image: "assets/product-jersey-3.jpg",
+    description: "Express your true self with this premium jersey.",
+  },
+  {
+    id: 12,
+    name: "Jedis Armless",
+    price: 15000,
+    category: "jersey",
+    image: "assets/product-jersey-4.jpg",
+    description: "Express your true self with this premium jersey.",
+  },
+  {
+    id: 13,
+    name: "Race Of Life Round Neck",
+    price: 25000,
+    category: "top",
+    image: "assets/product-top-3.jpg",
+    description: "Minimalist top with powerful messaging.",
   },
 ];
 
@@ -370,7 +426,7 @@ function displaySearchResults(products, container) {
     const resultItem = document.createElement("div");
     resultItem.className = "search-result-item";
     resultItem.innerHTML = `
-            <strong>${product.name}</strong> - $${product.price}
+            <strong>${product.name}</strong> - ₦${product.price}
         `;
 
     resultItem.addEventListener("click", () => {
@@ -528,7 +584,7 @@ function initializeGallery() {
 
 // Utility Functions
 function formatPrice(price) {
-  return `$${price.toFixed(2)}`;
+  return `₦${price.toFixed(2)}`;
 }
 
 function getProductById(id) {
